@@ -36,6 +36,8 @@ class ViewController: UIViewController {
         //Combine both the text fields and print the output in the UILabel
         var statement: String = "\(enterNameTextField.text) says \(enterMessageTextField.text)"
         
+        
+        //Blank the text field after the send button is pressed
         messageLabel.text = statement
         enterNameTextField.text = ""
         enterMessageTextField.text = ""
